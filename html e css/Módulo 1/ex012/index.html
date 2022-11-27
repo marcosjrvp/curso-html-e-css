@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML 5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no próprio servidor</p>
+   <!--<video src="midia/meuvideo.mp4.mp4" width="250" controls></video> -->
+   <video width="400" height="315" poster="imagens/thumb.png" muted autoplay controls loop>
+        
+    <source src="midia/meuvideo.mp4.mp4" type="video/mp4">
+    <source src="midia/meuvideo.m4v.m4v" type="video/mp4">
+    <source src="midia/meuvideo.webm.webm" type="video/webm">
+    <source src="midia/meuvideo.ogv.ogv" type="video/ogv">
+    <p>
+        Seu computador não tem compatibilidade com reprodução de vídeos
+    </p>
+   </video>
+   <h1>Inserindo vídeos do Youtube</h1>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/a-Cbn65za5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <h1>Inserindo vídeos do Vimeo</h1>
+   <iframe src="https://player.vimeo.com/video/261874912?h=5a44c24017&loop=1" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    
+</body>
+</html>
