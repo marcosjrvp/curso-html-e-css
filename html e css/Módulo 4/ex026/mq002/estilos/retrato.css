@@ -1,3 +1,8 @@
 @charset "UTF-8";
 
 /* configurações para aparelhos com orientação de tela em retrato */
+body{
+    background-image: url('../imagens/cev-portrait.jpg');
+    background-position: center bottom; 
+}
+    
